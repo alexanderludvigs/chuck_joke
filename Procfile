@@ -1,1 +1,1 @@
-web: build/install/chuck_joke/bin/chuck_joke
+web: tmp/chuck_joke/bin/chuck_joke

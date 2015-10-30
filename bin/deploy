@@ -11,4 +11,4 @@ test -f ~/chuck_joke/tmp/${APP} && rm -r ~/chuck_joke/tmp/${APP}
 cp -r ~/chuck_joke/build/install/${APP} ~/chuck_joke/tmp
 
 # Run application once
-~/chuck_joke/tmp/${APP}/bin/${APP}
+/tmp/${APP}/bin/${APP}
