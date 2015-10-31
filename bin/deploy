@@ -3,12 +3,12 @@
 APP="chuck_joke"
 
 # Always deploy new version, clean before
-~/chuck_joke/bin/clean
-~/chuck_joke/bin/package
+bin/clean
+bin/package
 
 # If the installation folder exists under /tmp, remove it
-test -f ~/chuck_joke/tmp/${APP} && rm -r ~/chuck_joke/tmp/${APP}
-cp -r ~/chuck_joke/build/install/${APP} ~/chuck_joke/tmp
+test -f /tmp/${APP} && rm -r /tmp/${APP}
+cp -r build/install/${APP} /tmp
 
 # Run application once
 /tmp/${APP}/bin/${APP}
